@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dalv0911.github.io/about/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
