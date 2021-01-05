@@ -3,7 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dalv0911.github.io/vi/about/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/auto-layout/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dalv0911.github.io/vi/categories/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -23,6 +49,7 @@
   
   <url>
     <loc>https://dalv0911.github.io/vi/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,6 +64,106 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/post/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/swift/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/categories/tech/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/uiscrollview/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/post/2018-swift-uiscrollview-with-autolayout/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/file/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/os/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/post/2018-file-permission/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/post/2017-look-back-a-year/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/tags/chuy%E1%BB%87n-phi%E1%BA%BFm/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dalv0911.github.io/vi/categories/feeds/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/categories/feeds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/categories/feeds/"
                 />
   </url>
   
@@ -56,25 +183,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://dalv0911.github.io/vi/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dalv0911.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://dalv0911.github.io/jp/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://dalv0911.github.io/vi/tags/"
                 />
   </url>
   

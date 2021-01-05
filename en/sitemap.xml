@@ -5,6 +5,21 @@
   <url>
     <loc>https://dalv0911.github.io/about/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/about/"
+                />
   </url>
   
   <url>
@@ -51,6 +66,21 @@
   
   <url>
     <loc>https://dalv0911.github.io/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/post/"
+                />
   </url>
   
   <url>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS on David</title>
+    <link>https://dalv0911.github.io/vi/tags/os/</link>
+    <description>Recent content in OS on David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018–2021, David and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://dalv0911.github.io/vi/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tìm hiểu về File Permission</title>
+      <link>https://dalv0911.github.io/vi/post/2018-file-permission/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dalv0911.github.io/vi/post/2018-file-permission/</guid>
+      <description>
+        
+          &lt;p&gt;Còn nhớ hồi học đại học, nhiều lúc setup server có mấy chỗ cứ chmod 777, chmod 755 loạn cả lên mà chả hiểu nó có ý nghĩa gì, hôm nay rảnh
+rỗi ngồi tìm hiểu xem tiện note lại cho anh em nào chưa biết nhé.&lt;/p&gt;
+&lt;h3 id=&#34;hiểu-về-file-permissions&#34;&gt;Hiểu về File Permissions&lt;/h3&gt;
+&lt;p&gt;Hệ thống Unix (bao gồm Mac OS X và Linux) có cơ chế quản lý file giúp định nghĩa người nào có thể truy cập vào 1 file cụ thể và actions
+có thể thực thi trên file đó(ví dụ như: read, write, execute). Trong cơ chế quản lý file có 2 phần tên là &lt;code&gt;Classes&lt;/code&gt; và &lt;code&gt;Permissions&lt;/code&gt;.
+Classes định nghĩa người nào có thể truy cập vào file và Permission xác định loại actions mà người dùng đó có thể thao tác.&lt;/p&gt;
+&lt;p&gt;Có 3 loại &lt;code&gt;Classes&lt;/code&gt;: Owner, Group, Others&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Owner&lt;/strong&gt; - thường là người tạo ra file/folders.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group&lt;/strong&gt; - bao gồm 1 group những người dùng có chung permission.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Others&lt;/strong&gt; - có ý nghĩa là những đối tượng còn lại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/file-permissions-classes.png&#34; alt=&#34;File Permissions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Đối với &lt;code&gt;Permissions&lt;/code&gt; có 3 loại actions bạn có thể thực hiện đối với 1 file/folders đó là: &lt;code&gt;read&lt;/code&gt;, &lt;code&gt;write&lt;/code&gt;, &lt;code&gt;execute&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt; - Bạn chỉ có thể xem 1 file nhưng không thể sửa nội dung của file đó. Nếu là folders thì bạn chỉ có thể xem các files trong
+folders nhưng bạn không thể delete hoặc add file vào trong folders đó.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write&lt;/strong&gt; - Bạn có thể edit và sửa file. Với folders bạn có thể xóa và thêm files vào trong folders.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execute&lt;/strong&gt; - Được sử dụng khi bạn cần run 1 file(thường dùng để run file dạng script)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/file-permissions-permissions.png&#34; alt=&#34;File Permissions&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;vậy-còn-các-số-777-755-kia-là-cái-gì&#34;&gt;Vậy còn các số 777, 755 kia là cái gì?&lt;/h3&gt;
+&lt;p&gt;Mỗi file và folder có 8-bit dữ liệu để control các permissions. Trong nhị phân, &amp;quot;000&amp;quot; sẽ tương đương với việc không có permissions nào được
+cấp. Khi bạn set &lt;code&gt;read&lt;/code&gt; permission, 4-bit sẽ được thêm vào thành &amp;quot;100&amp;quot; trong nhị phân và &amp;quot;4&amp;quot; trong thập phân. Nếu bạn set &lt;code&gt;write&lt;/code&gt;
+permission thì 2-bit sẽ được thêm vào thành &amp;quot;010&amp;quot; trong nhị phân và &amp;quot;2&amp;quot; trong thập phân. Cuối cùng, việc set &amp;quot;execute&amp;quot; permission sẽ thêm
+1-bit vào dữ liệu, kết quả sẽ là &amp;quot;001&amp;quot; trong nhị phân hoặc &amp;quot;1&amp;quot; trong thập phân. Tóm lại:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read tương đương với số 4&lt;/li&gt;
+&lt;li&gt;Write tương đương với số 2&lt;/li&gt;
+&lt;li&gt;Execute tương đương với số 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vậy thì, chmod 777 có nghãi là gì, bạn thấy đấy có 3 chữ số(777) tương đương với 3 permission được set lần lượt cho các
+Classes(Owner,Group,Others). 7 = 4(read) + 2(write) + 1(execute) có nghĩa là full control. Vậy thì nếu chmod 777 thì có nghĩa là tất cả mọi
+đối tượng đều có full quyền đối với file/folders mà bạn set.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 – no permission&lt;/li&gt;
+&lt;li&gt;1 – execute&lt;/li&gt;
+&lt;li&gt;2 – write&lt;/li&gt;
+&lt;li&gt;3 – write and execute&lt;/li&gt;
+&lt;li&gt;4 – read&lt;/li&gt;
+&lt;li&gt;5 – read and execute&lt;/li&gt;
+&lt;li&gt;6 – read and write&lt;/li&gt;
+&lt;li&gt;7 – read, write, and execute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bài gốc: &lt;a href=&#34;https://www.maketecheasier.com/file-permissions-what-does-chmod-777-means/&#34;&gt;https://www.maketecheasier.com/file-permissions-what-does-chmod-777-means/&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

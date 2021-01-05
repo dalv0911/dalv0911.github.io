@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auto Layout on David</title>
+    <link>https://dalv0911.github.io/vi/tags/auto-layout/</link>
+    <description>Recent content in Auto Layout on David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018–2021, David and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://dalv0911.github.io/vi/tags/auto-layout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UIScrollView with Auto Layout Constraints</title>
+      <link>https://dalv0911.github.io/vi/post/2018-swift-uiscrollview-with-autolayout/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dalv0911.github.io/vi/post/2018-swift-uiscrollview-with-autolayout/</guid>
+      <description>
+        
+          &lt;p&gt;Nhân tiện hôm nay ngồi cài UIScrollView cho màn hình trong ứng dụng cá nhân mình đang dev dở. Thấy tiện quá note lại cho bác nào cần đỡ phải mất công mày mò. Chả là khi làm ứng dụng chắc hẳn có những lúc bạn không thể lường trước được Height của một View. Nếu chẳng may có case nào đó khiến cho độ dài của View vượt quá kích thước màn hình điện thoại thì phần vượt quá đó sẽ bị cắt mất đi. Để giải quyết vấn đề này, mình cứ nhét cho cái View đó một UIScrollView cho an toàn :))&lt;/p&gt;
+&lt;h3 id=&#34;cài-đặt-uiscrollview&#34;&gt;Cài đặt UIScrollView&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bạn có thể cài đặt UIScrollView mà không cần 1 dòng code nào với Interface Builder - Storyboard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Đầu tiên, bạn cần tạo 1 Scroll View trong View của UIViewController mà bạn muốn. Trong Scroll View, bạn tạo 1 UIView (hint: Đặt tên cho nó là Content View cho dễ phân biệt với View của UIViewController). ScrollView không thể coi như là 1 View chứa các view con được, nên bạn cần tạo UIView trong Scroll View là vì thế.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/2018-04-28-01.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tiếp theo, bạn cần sử dụng Pin để tạo constraints với View cha cho cả Scroll View và ContentView. Trong trường hợp của mình thì mình để ContentView full with, height nên sẽ set distance 0 without margins.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/2018-04-28-02.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Cuối cùng, để Scrollable được thì Scroll View cần biết được with,height của ContentView. Nếu ContentView của bạn có định nghĩa with,height là một số cụ thể thì ScrollView sẽ biết và tự Scrollable. Như hình bên dưới là cách set with,height cho ContentView.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/2018-04-28-03.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tuy nhiên như mình nói lúc đầu, khi bạn không biết kích thước cụ thể của ContentView thì tốt nhất set with, height cho nó equal với View cha bên ngoài. Lúc này ScrollView cũng có thể tự tính được with/height dựa trên View cha. Để set equal with/equal height với View cha, bạn chỉ cần di chuột vào ContentView rồi nhấn Ctr và di chuột tới vị trí của View cha. Thả chuột ra là sẽ thấy chỗ set equal with, equal height.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dalv0911.github.io/images/2018-04-28-04.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hết rồi, chỉ đơn giản thế thôi.&lt;/p&gt;
+&lt;p&gt;Nguồn tham khảo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ralfebert.de/ios-examples/auto-layout/uiscrollview-storyboard/&#34;&gt;https://www.ralfebert.de/ios-examples/auto-layout/uiscrollview-storyboard/&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
