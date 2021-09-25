@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://dalv0911.github.io/vi/about/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
@@ -20,14 +19,10 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/auto-layout/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/categories/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -65,9 +58,7 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/post/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -85,14 +76,10 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/swift/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -110,49 +97,41 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/categories/tech/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/categories/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/categories/tech/"
+                />
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/uiscrollview/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/post/2018-swift-uiscrollview-with-autolayout/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/file/</loc>
     <lastmod>2018-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/os/</loc>
     <lastmod>2018-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/post/2018-file-permission/</loc>
     <lastmod>2018-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/post/2017-look-back-a-year/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/tags/chuy%E1%BB%87n-phi%E1%BA%BFm/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/categories/feeds/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -165,9 +144,7 @@
                 hreflang="vi"
                 href="https://dalv0911.github.io/vi/categories/feeds/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/vi/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -185,5 +162,4 @@
                 href="https://dalv0911.github.io/vi/series/"
                 />
   </url>
-  
 </urlset>

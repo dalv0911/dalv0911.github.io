@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://dalv0911.github.io/jp/about/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
@@ -20,9 +19,7 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/categories/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -40,9 +37,7 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -60,9 +55,7 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/categories/feeds/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -75,9 +68,7 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/categories/feeds/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/post/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -95,9 +86,7 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/tags/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -115,39 +104,25 @@
                 hreflang="jp"
                 href="https://dalv0911.github.io/jp/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/post/2018-very-first-time-snowboard/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/tags/%E9%9B%91%E8%AB%87/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/post/2018-challenge-as-staff-at-vysa/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/post/2018-very-first-holiday-in-japan/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/tags/startup/</loc>
     <lastmod>2016-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/post/start-up-yes-or-no/</loc>
     <lastmod>2016-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/jp/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -165,5 +140,4 @@
                 href="https://dalv0911.github.io/jp/series/"
                 />
   </url>
-  
 </urlset>

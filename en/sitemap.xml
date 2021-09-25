@@ -1,8 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://dalv0911.github.io/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/"
+                />
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/ad/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/categories/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/computer-science/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/post/2021-data-structure/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/data-structure/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/dsp/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/post/2021-ad-tech-keywords/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/post/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/post/"
+                />
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/rtb/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/ssp/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://dalv0911.github.io/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://dalv0911.github.io/categories/tech/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://dalv0911.github.io/vi/categories/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dalv0911.github.io/categories/tech/"
+                />
+  </url><url>
+    <loc>https://dalv0911.github.io/tags/acronyms/</loc>
+    <lastmod>2021-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dalv0911.github.io/post/2021-acronyms/</loc>
+    <lastmod>2021-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dalv0911.github.io/about/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -20,70 +134,9 @@
                 hreflang="en"
                 href="https://dalv0911.github.io/about/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://dalv0911.github.io/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://dalv0911.github.io/vi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://dalv0911.github.io/jp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dalv0911.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://dalv0911.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://dalv0911.github.io/vi/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://dalv0911.github.io/jp/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dalv0911.github.io/categories/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dalv0911.github.io/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://dalv0911.github.io/vi/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://dalv0911.github.io/jp/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dalv0911.github.io/post/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dalv0911.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -101,24 +154,4 @@
                 href="https://dalv0911.github.io/series/"
                 />
   </url>
-  
-  <url>
-    <loc>https://dalv0911.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://dalv0911.github.io/vi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://dalv0911.github.io/jp/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dalv0911.github.io/tags/"
-                />
-  </url>
-  
 </urlset>

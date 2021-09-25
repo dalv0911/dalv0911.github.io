@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTB on David</title>
+    <link>https://dalv0911.github.io/tags/rtb/</link>
+    <description>Recent content in RTB on David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018–2021, David and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dalv0911.github.io/tags/rtb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note - some keywords in the Ad tech field</title>
+      <link>https://dalv0911.github.io/post/2021-ad-tech-keywords/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dalv0911.github.io/post/2021-ad-tech-keywords/</guid>
+      <description>
+        
+          &lt;h1 id=&#34;ad-tech&#34;&gt;AD Tech&lt;/h1&gt;
+&lt;p&gt;I worked at Ad tech company after graduated university about 2 years. Here is some knowledge I learnt when working in the field.&lt;/p&gt;
+&lt;h2 id=&#34;supply-side-platform---ssp&#34;&gt;Supply Side Platform - SSP&lt;/h2&gt;
+&lt;p&gt;The supply side platform - SSP is a programatic software and digital publishers are the ones using it. SSP enables publishers to sell inventory to advertisers at highest possible rate, consequenlty earning the revenue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://publift.com/wp-content/uploads/2020/03/what-is-an-SSP-980x551.png.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The main goal of the SSP is maximum the publisher&#39;s ad earning.&lt;/p&gt;
+&lt;h2 id=&#34;demand-side-platform---dsp&#34;&gt;Demand Side Platform - DSP&lt;/h2&gt;
+&lt;p&gt;A demand-side platform, often abbreviated to DSP, is a programmatic advertising platform that allows advertisers and media buying agencies to bid automatically on display, video, mobile and search ad inventory from a wide range of publishers.&lt;/p&gt;
+&lt;p&gt;A demand-side platform can automate the decision-making process on how much to bid for an ad in real-time. DSPs make the ad-buying process significantly faster, cheaper and more efficient.&lt;/p&gt;
+&lt;h3 id=&#34;how-it-work&#34;&gt;How it work?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The advertiser selects their target audience and uploads the ads they want to publish.&lt;/li&gt;
+&lt;li&gt;Publishers make their ad inventories available on the DSP through ad exchanges and supply-side platforms.&lt;/li&gt;
+&lt;li&gt;These platforms offer the ad impression to the DSP, which makes a decision to send a bid to buy the impression based on relevance to the targeting criteria.&lt;/li&gt;
+&lt;li&gt;The advertiser competes with other advertisers for the ad impression placing bids in real-time.&lt;/li&gt;
+&lt;li&gt;The demand-side platform buys the impression and the ad is shown on the publisher’s website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ad-network&#34;&gt;Ad Network&lt;/h2&gt;
+&lt;p&gt;Ad networks aggregate ad inventories from supply sources and match them with demand sources looking for ad slots. The supply sources in a mobile ad network typically constitute apps from publishers and app developers. Demand sources are made up of advertisers looking to place their ad in another app.&lt;/p&gt;
+&lt;p&gt;Ad Network is the old version of DSP without realtime bidding, targeting. DSP has many features of Ad Network.&lt;/p&gt;
+&lt;h2 id=&#34;realtime-bidding---rtb&#34;&gt;Realtime Bidding - RTB&lt;/h2&gt;
+&lt;p&gt;Real-time bidding ( RTB) is a subcategory of programmatic media buying. It refers to the practice of buying and selling ads in real time on a per-impression basis in an instant auction. This is usually facilitated by a supply-side platform (SSP) or an ad exchange.&lt;/p&gt;
+&lt;h3 id=&#34;how-it-work-1&#34;&gt;How it work?&lt;/h3&gt;
+&lt;p&gt;At any given moment, multiple advertisers can bid on a single impression of a publisher’s inventory, then the winning ad (with the highest bid) is shown to the user. Through RTB, advertisers can apply fine-tuned targeting and focus on the inventory most relevant to them. This, in turn, yields better ROI and higher eCPMs. RTB also allows advertisers to adjust their campaign budgets in real-time in order to optimize campaign performance.&lt;/p&gt;
+&lt;p&gt;Take, for example, the moment in a mobile game where the player watches an ad between game levels. At that moment, the mobile SSP runs an auction for all of the advertisers interested in showing an ad to that player. The advertisers make their bid and, in a split-second, the highest bidder is chosen. Their advertisement is then served to the player.&lt;/p&gt;
+&lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://publift.com/what-is-demand-side-platform-dsp/&#34;&gt;https://publift.com/what-is-demand-side-platform-dsp/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adjust.com/glossary/real-time-bidding/&#34;&gt;https://www.adjust.com/glossary/real-time-bidding/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

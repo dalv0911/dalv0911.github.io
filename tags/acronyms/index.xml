@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>acronyms on David</title>
+    <link>https://dalv0911.github.io/tags/acronyms/</link>
+    <description>Recent content in acronyms on David</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018–2021, David and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dalv0911.github.io/tags/acronyms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acronyms in tech</title>
+      <link>https://dalv0911.github.io/post/2021-acronyms/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dalv0911.github.io/post/2021-acronyms/</guid>
+      <description>
+        
+          &lt;ul&gt;
+&lt;li&gt;ALU
+&lt;ul&gt;
+&lt;li&gt;Arithmetic Logic Unit&lt;/li&gt;
+&lt;li&gt;An example of 8 bits ALU
+&lt;ul&gt;
+&lt;li&gt;2 inputs A (8 bits) and B (8 bits)&lt;/li&gt;
+&lt;li&gt;1 output (8 bits)&lt;/li&gt;
+&lt;li&gt;3 flags
+&lt;ul&gt;
+&lt;li&gt;Overflow&lt;/li&gt;
+&lt;li&gt;Zero&lt;/li&gt;
+&lt;li&gt;Negative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Operation code (4bits)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=FZGugFqdr60&#34;&gt;Control Process Unit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://www.youtube.com/watch?v=cNN_tTXABUA&#34;&gt;how a CPU works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 pharse
+&lt;ul&gt;
+&lt;li&gt;Fetch&lt;/li&gt;
+&lt;li&gt;Decode&lt;/li&gt;
+&lt;li&gt;Execute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RAM
+&lt;ul&gt;
+&lt;li&gt;Random Access Memory&lt;/li&gt;
+&lt;li&gt;Address&lt;/li&gt;
+&lt;li&gt;Data
+&lt;ul&gt;
+&lt;li&gt;Operation code&lt;/li&gt;
+&lt;li&gt;Address or register&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
